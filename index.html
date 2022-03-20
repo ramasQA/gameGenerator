@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+    <title>GeneratorText</title>
+  </head>
+  <body>
+    <div class="container1" id="cont">
+      <div class="game hide" id="gam">
+        <p class="text1">1-Доволlhkjhьны ли Вы зарплатой?</p>
+        
+        <button type="button" id="butYes">Да</button>
+        <button type="button" id="butNo">Нет</button>
+        
+        <div class="text2 hide">
+            <p id="textf">Да! Это верный выбор!!!</p>
+            <button type="button" id="close">Выйти</button>
+
+        </div>
+      </div>
+
+      <div class="enter" id="ent">
+        <label for="example">Например: Довольны ли Вы зарплатой?</label> <br />
+        <label for="example2">Не более 50 символов...</label> <br />
+        <input id="input1" name="text" placeholder="Введите вопрос..." type="text" maxlength="50"/>
+        <button class="btn" type="button" id="start">Вперёд</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
